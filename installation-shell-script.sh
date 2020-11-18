@@ -8,6 +8,7 @@
 
 ## Applications that will be installed ##
 
+## Snapd ##
 ## Spotify ##
 ## VLC ##
 ## Yarn ##
@@ -16,6 +17,9 @@
 ## Gnome-tweaks ##
 ## LAMP ##
 
+## Snapd ##
+
+sudo apt install snapd
 
 ## Install Spotify ##
 
