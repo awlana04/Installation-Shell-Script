@@ -13,9 +13,18 @@
 ## VLC ##
 ## Yarn ##
 ## Node ##
+## Insomnia ##
+## Beekeeper ##
 ## Android Studio ##
 ## Gnome-tweaks ##
 ## LAMP ##
+
+## To update and upgrade your system before continue ##
+
+sudo apt update && apt list --upgradable && sudo apt upgrade
+
+## Linuxs based on debian versions less than 20.04 ##
+sudo apt-get update && sudo apt-get upgrade
 
 ## Snapd ##
 
@@ -44,6 +53,18 @@ yarn --version
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 
 sudo apt install -y nodejs
+
+## Insomnia ##
+
+sudo snap install insomnia
+
+sudo snap refresh insomnia
+
+## Beekeeper ##
+
+sudo snap install beekeeper-studio
+
+sudo snap refresh beekeeper-studio
 
 ## Android Studio ##
 
@@ -78,3 +99,6 @@ sudo /etc/init.d/apache2 restart
 ## To end up ##
 
 sudo apt update && apt list --upgradable && sudo apt upgrade
+
+## Linuxs based on debian versions less than 20.04 ##
+sudo apt-get update && sudo apt-get upgrade

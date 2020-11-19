@@ -37,6 +37,8 @@ And then, just typing in your terminal to execute it:
 
 ```
 
+**Note**: Please, read the script before installing it, because there you'll find some really important informations of how to successfully install the some applications like the LAMP. Be aware.
+
 **Pay attetion!** 
 
 When you get in the final part, which is the LAMP installation, you really have to pay attetion because of the Apache and MySQL will ask the server type and a password.
