@@ -71,6 +71,10 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
 
 sudo /etc/init.d/apache2 restart
 
+## In your favorite browser, just type: http://localhost/test.php ##
+## and will be shown the informations about Apache, PHP, MySQL. ##
+## Telling you that everything got right. ##
+
 ## To end up ##
 
 sudo apt update && apt list --upgradable && sudo apt upgrade
