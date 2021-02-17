@@ -15,7 +15,6 @@ This is a shell script to auto install some applications. You can use this scrip
 - [NodeJS](https://nodejs.org/en/)
 - [Android Studio](https://developer.android.com/studio)
 - [Gnome-tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks)
-- [LAMP (Linux, Apache, MySQL, PHP)](https://medium.com/better-programming/how-to-install-lamp-stack-on-ubuntu-db77ac018116)
 
 ## How to use it?
 
@@ -38,16 +37,6 @@ And then, just typing in your terminal to execute it:
 ```
 
 **Note**: Please, read the script before installing it, because there you'll find some really important informations of how to successfully install the some applications like the LAMP. Be aware.
-
-**Pay attetion!** 
-
-When you get in the final part, which is the LAMP installation, you really have to pay attetion because of the Apache and MySQL will ask the server type and a password.
-
-If you didn't understood or something went wrong in this final installation, I will leave you two sites, both are explaning about LAMP and how to install it, but one is in english and the other one in portugues, just for you to choose the best one for you, my pal :)
-
-**Edivaldo Brito** | Como instalar o LAMP no Linux Ubuntu, Debian e derivados: https://www.edivaldobrito.com.br/instale-lamp-no-linux-e-tenha-um-servidor-web-em-seu-pc/#:~:text=Como%20instalar%20o%20LAMP%20no%20Linux%20Ubuntu%2C%20Debian%20e%20derivados&text=Abra%20seu%20navegador%20favorito%20e,Pronto!
-
-**PhoenixNAP** | How To Install The LAMP Stack On Ubuntu 18.04: https://phoenixnap.com/kb/how-to-install-lamp-stack-on-ubuntu
 
 <br />
 

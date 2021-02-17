@@ -17,7 +17,6 @@
 ## Beekeeper ##
 ## Android Studio ##
 ## Gnome-tweaks ##
-## LAMP ##
 
 ## To update and upgrade your system before continue ##
 
@@ -77,24 +76,6 @@ sudo apt-get install android-studio
 ## Gnome-tweaks ##
 
 sudo apt install gnome-tweaks
-
-## LAMP ##
-
-sudo apt-get install lamp-server^
-
-sudo apt-get install apache2 mysql-server php php-mysql libapache2-mod-php
-
-sudo apt-get install phpmyadmin
-
-sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
-
-echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
-
-sudo /etc/init.d/apache2 restart
-
-## In your favorite browser, just type: http://localhost/test.php ##
-## and will be shown the informations about Apache, PHP, MySQL. ##
-## Telling you that everything got right. ##
 
 ## To end up ##
 
