@@ -36,7 +36,7 @@ And then, just typing in your terminal to execute it:
 
 ```
 
-**Note**: Please, read the script before installing it, because there you'll find some really important informations of how to successfully install the some applications like the LAMP. Be aware.
+**Note**: Please, read the script before installing it, because there you'll find some really important informations in how do you want to install some applications and etc. Be aware.
 
 <br />
 
