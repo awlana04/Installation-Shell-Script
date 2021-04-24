@@ -21,7 +21,7 @@
 
 ## To update and upgrade your system before continue ##
 
-sudo apt update && apt list --upgradable && sudo apt upgrade
+sudo apt update && sudo apt full-upgrade
 
 ## Linuxs based on debian versions less than 20.04 ##
 ## sudo apt-get update && sudo apt-get upgrade ##
