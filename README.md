@@ -2,14 +2,12 @@
 
 This is a shell script to auto install some applications. You can use this script such as you're just finished up formatting your pc and wants to reinstall some programming applications back.
 
-**Note**: This is just for linux, and depending of your linux's version or type, these commands may vary, but, you can still download this script and just commnent the unusable code for you, and descomment the code you'll use for.
+**Note**: This is just for linux, and depending of your linux's version or type, these commands may vary, but, you can still download this script and just comment the unusable code for you, and discommend the code you'll use for.
 
-**Commands for packman packages comming :)**
+**Commands for packman packages coming :)**
 
 ## What's going to be install?
 
-- [Snapd](https://snapcraft.io/docs/installing-snapd)
-- [Spotify](https://www.spotify.com/us/)
 - [VLC](https://www.videolan.org/vlc/index.pt-BR.html)
 - [Chromium](https://www.chromium.org/)
 - [NodeJS](https://nodejs.org/en/)
@@ -17,20 +15,13 @@ This is a shell script to auto install some applications. You can use this scrip
 - [JDK](https://www.oracle.com/br/java/technologies/javase-downloads.html)
 - [Docker](https://www.docker.com/)
 - [Docker-compose](https://docs.docker.com/compose/)
-- [Visual-studio-code](https://code.visualstudio.com/)
 - [Vim](https://www.vim.org/)
-- [Insomnia](https://insomnia.rest/)
-- [Beekeper](https://www.beekeeperstudio.io/)
-- [Flipper](https://fbflipper.com/)
-- [GIMP](https://www.gimp.org/)
-- [Inkscape](https://inkscape.org/)
-- [Discord](https://discord.com/)
 - [qBittorrent](https://www.qbittorrent.org/)
 - [Gnome-tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks)
 
 ## How to use it?
 
-To run this script you have to, first of all, go to the folder where is it, for example, if it is in dowloands in a folder called installation-shell-script, and supposing that you're at the home folder in your terminal, you can try out:
+To run this script you have to, first of all, go to the folder where is it, for example, if it is in downloads in a folder called installation-shell-script, and supposing that you're at the home folder in your terminal, you can try out:
 
 ```bash 
   

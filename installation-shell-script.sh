@@ -8,8 +8,6 @@
 
 ## Applications that will be installed ##
 
-## Snapd ##
-## Spotify ##
 ## VLC ##
 ## Chromium ##
 ## Node ##
@@ -17,14 +15,7 @@
 ## JDK ##
 ## Docker ##
 ## Docker Compose ##
-## Visual Studio Code ##
 ## Vim ##
-## Insomnia ##
-## Beekeeper ##
-## Flipper ##
-## GIMP ##
-## Inkscape ##
-## Discord ##
 ## qBittorrent ##
 ## Gnome-tweaks ##
 
@@ -35,17 +26,9 @@ sudo apt update && apt list --upgradable && sudo apt upgrade
 ## Linuxs based on debian versions less than 20.04 ##
 ## sudo apt-get update && sudo apt-get upgrade ##
 
-## Snapd ##
-
-sudo apt install snapd
-
-## Install Spotify ##
-
-sudo snap install spotify
-
 ## Install VLC ##
 
-sudo apt install VLC
+sudo apt install vlc
 
 ## Chromium ##
 
@@ -123,65 +106,11 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 sudo curl -L https://raw.githubusercontent.com/docker/compose/1.28.2/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
 
-## Visual Studio Code ##
-
-sudo apt install software-properties-common apt-transport-https wget
-
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add --
-
-sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main”
-
-sudo apt install code
-
 ## Vim ##
 
 sudo apt update
 
 sudo apt install vim
-
-## Insomnia ##
-
-sudo snap install insomnia
-
-sudo snap refresh insomnia
-
-## Beekeeper ##
-
-sudo snap install beekeeper-studio
-
-sudo snap refresh beekeeper-studio
-
-## Flipper ##
-
-sudo apt update
-
-sudo snap install flipper --edge
-
-## GIMP ##
-
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-
-sudo apt update
-
-sudo apt install gimp gimp-gmic gmic
-
-sudo apt install gimp-plugin-registry
-
-## Inkscape ##
-
-sudo add-apt-repository ppa:inkscape.dev/stable-daily
-
-sudo apt update
-
-sudo apt install inkscape
-
-## Discord ##
-
-wget "https://discordapp.com/api/download?platform=linux&format=deb" -O discord.deb
-
-sudo dpkg -i discord.deb
-
-sudo apt install -f
 
 ## qBittorrent ##
 
